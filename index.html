@@ -1,0 +1,46 @@
+ <!doctype html>
+ <html>
+ <head>
+ <title> operator</title>
+ <link href="css/style.css" rel="stylesheet">
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ </head>
+<body>
+	 <div class="container">
+		<div class="row1">
+			<a href="#" class="head">Dropdown </a>
+			<div class="sub">
+				<ul>
+					<li><a href="#">HTML</a></li>
+					<li><a href="#">CSS</a></li>
+					<li><a href="#">JAVASCRIPT</a></li>
+					
+				</ul>
+			</div>
+			</div>
+				
+			
+		</div>
+	</div>
+	 <script>
+	 let head=document.querySelector(".head");
+	 
+	 head.addEventListener("click",function(){
+		let div=document.querySelector(".sub");
+		
+		if(div.classList.contains("sub1")){
+			div.classList.remove("sub1")
+		}else{
+			div.classList.add("sub1")
+		}
+	 
+	 })
+	 
+		
+		 
+		 
+
+		</script>
+		
+	 </body>
+</html>

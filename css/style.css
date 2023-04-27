@@ -1,0 +1,36 @@
+*{
+	text-decoration:none;
+	
+}
+.row1 .head{
+	width:190px;
+	height:20px;
+	border:2px solid;
+	display:inline-block;
+	text-align:center;
+	background-color:#ffacdc;
+}
+.row1 .sub{
+	width:200px;
+	height:100px;
+	border:2px solid;
+	background-color:#ffacdc;
+}
+.row1 .sub ul{
+	
+	text-align:left;
+}
+.row1 .sub li{
+	width:140px;
+	list-style:none;
+	text-align:left;
+}
+.row1 .sub li:hover{
+	background-color:yellow;	
+}
+.sub{
+	display:none;
+}
+.sub1{
+	display:block;
+}
